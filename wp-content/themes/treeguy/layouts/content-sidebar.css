@@ -1,0 +1,123 @@
+/*
+Theme Name: TreeGuy
+Layout: Content-Sidebar
+*/
+
+.content-area {
+	float:left;
+}
+
+.page-id-2 .content-area {
+	float: none;
+}
+
+.page-id-5 .site-content {
+	margin-top: 48px;
+}
+
+.page-id-5 .content-area {
+	float: left;
+	width: 100%;
+	margin: 0 32px 0 -360px;
+	padding-left: 360px;
+
+}
+
+.home .content-area {
+	float:none;
+	text-align:center;
+}
+
+.site-main{
+}
+
+.site-content {
+}
+.single .site-content,
+.page .site-content { 
+    background: #fff; 
+    background: hsl(0, 0%, 100%);
+}
+
+.site-content .widget-area,
+.site-content .contact-widget-area {
+	background: #fff;
+	float: right;
+	/*margin-top: 18px;*/
+	width: 320px;
+}
+
+.site-footer {
+	clear: both;
+	width: 100%;
+}
+
+.entry-header,
+.entry-content,
+.entry-meta,
+.entry-footer,
+.tag-links,
+.post-navigation,
+.comments-area,
+.paging-navigation {
+	margin: 0 auto;
+	max-width:1200px;
+	position: relative;
+
+}
+
+.index-box {
+    max-width: 780px;
+    max-width: 78rem;
+    padding: 1em 0 2em;
+    margin: 0 auto;
+    background: #fff;
+    background: hsl(0, 0%, 100%);
+}
+
+.index-box blockquote.alignleft,
+.index-box blockquote.alignright {
+    background: #fff;
+    background: hsl(0, 0%, 100%);
+    border: none;
+}
+
+@media screen and (min-width: 1820px) {
+    .index-box blockquote.alignright { padding-right: 2em; }
+}
+
+@media screen and (min-width: 1320px) {
+    .index-box blockquote.alignleft { padding-left: 2em; }
+}
+
+@media screen and (max-width: 1139px) {
+	.content-area {
+		float:none;
+		width:100%;	
+	}
+
+	.site-content .widget-area {
+		background: #EFEFEF;
+		float: none;
+		margin: 1em auto 0;
+		width: auto;
+		max-width:900px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.page-id-5 .content-area {
+		float: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	.site-content .widget-area,
+	.site-content .contact-widget-area {
+		background: #efefef;
+		float: none;
+		margin-bottom: 24px;
+		padding: 16px;
+		width: 100%;
+	}
+}
